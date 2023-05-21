@@ -1,0 +1,22 @@
+version: "3.1"
+services:
+  nestjs-app:
+    build:
+      context: ./flight_backend
+      dockerfile: Dockerfile
+    container_name: nestjs_app_container
+    # image: a7medabdo6/care_managment
+    volumes:
+      - ./flight_backend/src:/App/src:ro
+    ports:
+      - "5000:5000"
+
+  nginx:
+    build:
+      context: ./
+      dockerfile: Dockerfile.nginx
+    # volumes:
+    #     - ./Care_Frontend/build:/usr/share/nginx/html:ro
+    ports:
+      - 80:80
+    restart: always

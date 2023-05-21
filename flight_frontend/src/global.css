@@ -1,0 +1,56 @@
+.MuiTableCell-head {
+    color: #546e7a;
+    font-size: 0.75rem !important;
+    font-weight: 500;
+    line-height: 1.3125rem;
+}
+
+.MuiTableCell-root {
+    color: #263238;
+    display: table-cell;
+    padding: 14px 40px 14px 16px;
+    font-size: .75rem  !important;
+    text-align: left;
+
+}
+img, svg {
+    vertical-align: middle;
+    width: 20px;
+}
+.border-unset{
+    border: unset !important;
+    margin-top: 10px;
+    padding: 5px;
+    min-width: 110px !important
+}
+.mr-custom{
+    margin-right: 20px;
+}
+
+.firstGroupnotFlex {
+    width: 100%;
+    margin-left: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(172, 170, 170)
+}
+/* .firstGroupflex div .list-none {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+} */
+li.list-none.active{
+    background-color: grey;
+    width: 100%;
+    padding:0px 5px 5px 5px;
+    border-radius: 4px;
+    color:white
+}
+.firstGroupnotFlex button{
+    background-color: transparent;
+}
+.firstGroupnotFlex button svg{
+/* display: none !important; */
+}

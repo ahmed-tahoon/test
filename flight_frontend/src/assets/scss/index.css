@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #f4f6f8;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#root {
+  height: 100%;
+}
+
+:not(pre)>code {
+  font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
+  background-color: #eeeeee;
+  padding: 2px 4px;
+  direction: ltr;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.shadowBox {
+
+
+  box-shadow: 2px 5px #e6e3e3;
+}
+
+
+.custom-input {
+  visibility: hidden;
+}
+
+/*الغاء السهمين االى جنب انبوت نمبر*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.tableAddRoundTripFontSize {
+  font-size: 13px;
+  color: "black";
+  font-weight: 600;
+
+}
+
+.textinputround {
+  width: 40px;
+  height: 40px;
+}
+
+.MuiTableCell-root {
+  padding: 4px !important;
+}
+
+.makeStyles-fab-145 {
+  display: none !important;
+}
+
+.addseatCO-Price {
+  margin-left: 245px;
+}
+
+@media only screen and (max-width: 600px) {
+  .tableAddRoundTripFontSize {
+    font-size: 8px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+  }
+
+  .textinputround {
+    width: 40px;
+  }
+
+  .addseatCO-Price {
+    margin-left: 100px;
+  }
+}
+
+
+.shadow {
+  background: #fff;
+
+  box-shadow: inset 0px 1px 8px rgba(0, 0, 0, 0.2);
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 1.45;
+  outline: none;
+  -webkit-transition: .18s ease-out;
+  -moz-transition: .18s ease-out;
+  -o-transition: .18s ease-out;
+  transition: .18s ease-out;
+}
+
+th.MuiTableCell-head {
+  color: rgb(50, 1, 100) !important;
+}
+
+thead.MuiTableHead-root {
+  background-color: white !important;
+  color: rgb(50, 1, 100) !important;
+
+
+}
+
+.MuiToolbar-regular {
+  color: black !important;
+  background: white !important;
+}
+
+.makeStyles-search-12 {
+  color: black;
+  height: 36px;
+  display: flex;
+  padding: 0px 16px;
+  flex-basis: 300px;
+  align-items: center;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.new-item {
+  /* background-color: red; */
+}
+
+.makeStyles-fab-419 {
+  display: none;
+}
+
+.MuiCardHeader-action {
+  display: none;
+}
+
+.CANCELBTN {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.makeStyles-search-39 {
+  border: 1px solid orange;
+}
+
+.MuiOutlinedInput-notchedOutline {
+
+  border-color: rgba(0, 0, 0, 0.0);
+}
+
+.MuiMenu-paper {
+  width: 200px;
+  border-radius: 20px !important;
+}
+
+.box-shadow-example {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+.MuiCollapse-container .d-flex.justify-content-center.align.items-center .MuiCollapse-container.MuiCollapse-entered {
+  /* width: 200% !important; */
+
+}
+.makeStyles-fab-125 {
+  right: 32px;
+  bottom: 32px;
+  z-index: 1100;
+  display: none;
+  position: fixed;
+}
+.MuiTableCell-root{
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  word-wrap: unset !important;
+  overflow: hidden !important;
+  max-width: 50px !important;
+}
+
+
+.jss125{
+  display: none !important;
+
+}

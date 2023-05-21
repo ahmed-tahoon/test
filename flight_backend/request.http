@@ -1,0 +1,47 @@
+POST http://localhost:3000/users/signup
+Content-Type: application/json
+
+{
+    "email":"aaahhmeed@gami.com",
+    "password":"aaahmed",
+    "role":1,
+    "phone":"214536",
+    "username":"ahmed",
+    "createBy":1
+
+}
+##################################
+POST http://localhost:3000/users/signin
+Content-Type: application/json
+
+  {"email":"aaahmeed@gami.com",
+      "password":"aahmed"
+  }
+########################
+
+
+GET http://localhost:3000/users/whoami
+Content-Type: application/json
+
+########################
+
+POST  http://localhost:3000/users/signout
+Content-Type: application/json
+
+########################
+GET http://localhost:3000/reports
+Content-Type: application/json
+#######################################
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "make": "toyota",
+  "model": "corolla",
+  "year": 1980,
+  "mileage": 1000,
+  "lng": 0,
+  "lat": 0,
+  "price": 500000
+}
+##################################
